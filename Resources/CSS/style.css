@@ -1,10 +1,29 @@
 .footer {
+    position: absolute;
     left: 0;
     bottom: 0;
+    height: 100px;
     width: 100%;
     background-color:#333;
     color: white;
     text-align: center;
+ }
+
+ .Homefooter {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color:#333;
+    color: white;
+    text-align: center;
+ }
+
+ html,body{
+     position:relative;
+     overflow:auto;
+     height: 100%;
  }
 
  .sectionOne {  
@@ -14,8 +33,16 @@
 
   .container-fluid {
     padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .container-spacing{
+    padding-top: 10px;
     padding-bottom: 50px;
   }
+
+
+  
 
   .margin {
       margin-bottom: 45px;
@@ -27,3 +54,13 @@
       padding-left: 70px;
   }
 
+  .contactParagraph{
+      font-size: 20px;
+  }
+
+  .projectImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
